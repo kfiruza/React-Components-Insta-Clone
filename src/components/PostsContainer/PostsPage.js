@@ -4,9 +4,10 @@ import Post from "./Post";
 import "./Posts.css";
 
 // pass the data from App.js down as props then map through the data
-const PostsPage = () => {
+const PostsPage = (props) => {
   return (
     <div className="posts-container-wrapper">
+      {props.data.map((item, index) => (<Post post={item} key={index}/>))}
       {/* map through data here */}
     </div>
   );
