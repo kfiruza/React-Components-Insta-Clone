@@ -18,7 +18,11 @@ const dummyData = [
             {
                 username: "martinseludo",
                 text: "Can't wait to try it!"
-            }
+            },
+              { 
+                username: "firuza_kh",
+                text: "Wow delicious."
+        }
         ]
     },
     {
@@ -43,6 +47,10 @@ const dummyData = [
             {
                 username: "dennis_futbol",
                 text: "It that injustice"
+            },
+            {
+                username: "firuza_kh",
+                text: "comment from Lambda student."
             }
         ]
     }
